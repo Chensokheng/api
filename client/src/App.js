@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { ProtectedRoute, PublicRoute } from './routes/Routes';
+import Login from './page/Login';
+import DashBoard from './page/DashBoard';
+import NotFound from './page/NotFound';
 
-function App() {
+export default function App() {
+  const [auth, setAuth] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <PublicRoute component={Login} exact path="/" />
+        <PublicRoute component={Login} exact path="/login" />
+        <ProtectedRoute component={DashBoard} exact path="/dashboard" />
+        <Route component={NotFound} />
+      </Switch>
+    </Router>
   );
 }
-
-export default App;
