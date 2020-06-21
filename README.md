@@ -2,18 +2,22 @@
 
 ## Part 1 build UI
 
-[*] login with github and facebook
+- [x] login with github and facebook
 
-[*] place to show the api key
+- [x] place to show the api key
 
 ## Part 2
 
-[-] set up mongodb
+- [ ] set up mongodb
 
-[-] do login with github and facebook
+- [ ] set up passport
 
-[-] store user info and generate api
+- [ ] authentication(github,facebook)
 
-[-] build api
+- [ ] session
 
-[-] authentication api
+- [ ] generate api key
+
+- [ ] build api
+
+- [ ] authentication api
