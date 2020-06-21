@@ -36,14 +36,11 @@ const SubContainer = styled.div`
 `;
 
 const Text = styled.p`
-  color: #fff;
-`;
-const Title = styled.h1`
-  color: #fff;
+  color: #000;
 `;
 
 const Box = styled.div`
   margin: 10px;
 `;
 
-export { ButtonLogin, Typography, SubContainer, Text, Title, Box };
+export { ButtonLogin, Typography, SubContainer, Text, Box };

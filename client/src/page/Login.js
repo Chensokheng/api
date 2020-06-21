@@ -1,11 +1,10 @@
 import React from 'react';
-import { Container } from '../components/shared';
+import { Container, Title } from '../components/shared';
 import {
   ButtonLogin,
   Typography,
   SubContainer,
   Text,
-  Title,
   Box,
 } from '../components/login';
 export default function Login() {

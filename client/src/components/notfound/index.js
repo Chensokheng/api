@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Title = styled.h1`
-  color: white;
+  color: #000;
 `;
 
 const Image = styled.img`
@@ -14,7 +14,7 @@ const Image = styled.img`
 const RedirectLink = styled.a`
   font-size: 1.2rem;
   text-decoration: underline;
-  color: #fff;
+  color: #000;
 `;
 
 export { Title, Image, RedirectLink };
