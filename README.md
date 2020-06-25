@@ -8,7 +8,7 @@
 
 ## Part 2
 
-- [ ] set up mongodb
+- [x] set up mongodb
 
 - [ ] set up passport
 
