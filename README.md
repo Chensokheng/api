@@ -9,8 +9,8 @@
 ## Part 2
 
 - [x] set up mongodb
-- [ ] set up passport
-- [ ] session
+- [x] set up passport
+- [x] session
 - [ ] authentication(github,facebook)
 - [ ] generate api key
 
