@@ -11,9 +11,6 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// router
-app.use('/api', router);
-
 // session
 app.use(
   session({
@@ -41,5 +38,8 @@ passport.deserializeUser(function (id, done) {
     done(err, user);
   });
 });
+
+// router
+app.use('/api', router);
 
 module.exports = app;

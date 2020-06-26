@@ -13,7 +13,5 @@
 - [x] session
 - [ ] authentication(github,facebook)
 - [ ] generate api key
-
 - [ ] build api
-
 - [ ] authentication api
